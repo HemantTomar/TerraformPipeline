@@ -1,0 +1,2 @@
+codestartconnection="arn:aws:codestar-connections:us-east-1:333311809828:connection/2253bd6e-421d-49fe-be88-cf567ab3f24c"
+dockercredential="arn:aws:secretsmanager:us-east-1:333311809828:secret:dockercredential-Lyvk7P"
