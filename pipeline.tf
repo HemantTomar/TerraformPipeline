@@ -69,7 +69,7 @@ resource "aws_codepipeline" "cicd_pipeline" {
             version = "1"
             output_artifacts = ["tf-code"]
             configuration = {
-                FullRepositoryId = "codestarconnection"
+                FullRepositoryId = "HemantTomar/TerraformPipeline"
                 BranchName   = "master"
                 ConnectionArn = var.codestartconnection
                 OutputArtifactFormat = "CODE_ZIP"
